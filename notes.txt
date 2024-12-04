@@ -1,0 +1,42 @@
+https://youtu.be/8a82aLoeriQ?si=DId-xgHub_tWGT6j ---- dynamic viszualize emojis
+
+
+https://youtu.be/lfqPpUdtTss?si=XTzqbrnyjVsSzXXf
+
+https://youtu.be/7KY3UzF7rsc?si=2v8m-2MuIM3i9qEp
+
+https://youtu.be/C7SLob46bgQ?si=TGjiphJs8QAh_JR1 --- used for cards
+
+https://emojiterra.com/ -- emojis
+
+https://emojidb.org/gingerbread-emojis  
+
+
+https://youtu.be/9eEk2ct2QCI?si=rIwYYCp9MtyMgOGl  ---editing interactions from one panel to another
+
+WeatherEmoji = 
+SWITCH(
+    TRUE(),
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "overcast clouds", "🌥️",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "moderate rain", "🌦️",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "heavy intensity rain", "🌧️💦",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "light rain", "🌧️",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "broken clouds", "🌤️",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "scattered clouds", "🌥️",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "haze", "🌫️",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "few clouds", "🌤️",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "smoke", "💨",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "clear sky", "☀️",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "mist", "🌫️",
+    SELECTEDVALUE(finalOpenWeatherData[description]) = "thunderstorm", "⚡🌩️",
+    "Unknown"  -- default value if none of the conditions match
+)
+
+
+
+
+https://youtu.be/iMQ1gUPAwv4?si=3qKY26dtH4CQmYww
+
+
+
+https://youtu.be/hPJls7cziHI?si=FcjitOGvho8eskMz -- map 
